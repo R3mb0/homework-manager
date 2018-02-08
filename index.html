@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-database.js"></script>
+
+      <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyBouIw9RSbNWOiLeSu_PSltdue2eeMPoVQ",
+          authDomain: "fir-authapp-e81c9.firebaseapp.com",
+          databaseURL: "https://fir-authapp-e81c9.firebaseio.com",
+          projectId: "fir-authapp-e81c9",
+          storageBucket: "fir-authapp-e81c9.appspot.com",
+          messagingSenderId: "19909406511"
+        };
+        firebase.initializeApp(config);
+  </script>
+
+    </head>
+
+    <body class="orange lighten-3">
+
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper orange darken-3">
+            <span class="brand-logo center">Homework</span>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container">
+        <div class="row" id="taskList">
+        </div>
+     </div>
+
+     <footer class="page-footer orange darken-1">
+
+          <div class="container">
+              <div class="row">
+                <div class="col 6l 12s">
+                  <h5 class="white-text">DualClick.net</h5>
+                     <ul>
+                       <li><a class="grey-text text-lighten-3" href="https://Dualclick.net">DualStudios</a></li>
+                       <li><a class="grey-text text-lighten-3" href="impressum.html">Impressum</a></li>
+                     </ul>
+                </div>
+            </div>
+          </div>
+
+          <div class="footer-copyright orange darken-2">
+            <div class="container">
+            © 2017 DualClick Studios
+            </div>
+          </div>
+
+        </footer>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <script src="scripts/master.js" charset="utf-8"></script>
+
+    </body>
+  </html>
